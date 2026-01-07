@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRAEDIT</title>
+    <style>
+        header{
+            border: black solid 0.5px;
+            background-color: rgba(225, 230, 235, 0.941);
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+        .logo img{
+            height:40px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family:"Segoe UI" ;
+            
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+       .right ul li span{
+        padding: 0 5px;
+       }
+        .container{
+            max-width: 900px;
+            margin: 40px ;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .items{
+            background-color: gainsboro;
+            padding-bottom: 40px;
+            border-radius: 15px;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;          
+        }
+        .button{
+            background-color: rgb(255, 234, 0);
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        @media (max-width: 480px) {
+        .container {
+        grid-template-columns: 1fr;
+         }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <div class="logo">
+                <img src="logo.webp" alt="website logo"  >
+        </div>
+        <h2>UltraEdit</h2>
+        <p>By Embarcadero</p>
+        <div class="right">
+            <ul>
+                <li class="list-element"><span>Products</span><svg height="20" width="20"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
+</svg></li>
+                <li class="list-element"><span>Buy</span><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
+</svg></li>
+                <li class="list-element"><span>Support</span><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
+</svg></li>
+                <li class="list-element"><span>Learn</span><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
+</svg> </li>
+                <li class="list-element"><span>Company</span><svg height="20" width="20"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" />
+</svg></li>
+            </ul>
+        </div>     
+        </nav>
+       
+    </header>
+    <div class="container">
+        <div class="items eng">
+            <h2>English</h2>
+            <p>Includes all languages</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></button>
+        </div>
+        <div class="items deu">
+            <h2>Deutch</h2>
+            <p>German</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></button>
+        </div>
+        <div class="items italy">
+            <h2>Italiano</h2>
+            <p>Italian</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></button>
+        </div>
+        <div class="items Espanol">
+            <h2>Espanol</h2>
+            <p>Spanish</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items french">
+            <h2>français</h2>
+            <p>French</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items portuguese">
+            <h2>Português brasileiro</h2>
+            <p>Brazilian Portuguese</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items japan">
+            <h2>日本</h2>
+            <p>Japanese</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items korea">
+            <h2>한국어</h2>
+            <p>Korean</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items Chinese">
+            <h2>华语</h2>
+            <p>Chinese</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+        <div class="items China2">
+            <h2>華語</h2>
+            <p>Traditional Chinese</p>
+            <button class="button"><a href="ue_allinone.exe">Download 64-bit</a></div>
+        </button>
+    </div>
+</body>
+</h
